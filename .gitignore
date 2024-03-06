@@ -3,3 +3,6 @@ node_modules
 # VARIAVEIS DE AMBIENTE
 cypress.env.json
 
+#Estudos de caso em automação
+cypress/e2e/2-advanced-examples
+
