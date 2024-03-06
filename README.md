@@ -1,4 +1,4 @@
-# Nome do Cypress
+# Nome do Projeto a ser Testado
 
 [Projeto wiki]()
 
@@ -23,11 +23,11 @@ No seu ambiente local de trabalho, abra o terminal, e cole o seguinte código `g
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
->Verificar as versões na sua máquina:</br>
+>Verificar as versões do projeto e na sua máquina:</br>
 
-[]() versão utilizada: `0.0.0`
+[]() versão utilizada cypress: `"^13.5.1"`
 
-[]() versão utilizada: `0.0.0`
+[]() versão utilizada testing-library/cypress: `"^10.0.1"`
 
 * Instalar a versão utilizada no projeto: `<linguagem / dependência / requeridos>` </br>
 `<dependência / requeridos>`
@@ -38,7 +38,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 Indique qual sistema operacional é compatível / não compatível. Se não, adicione o procedimento de cada uma.
 
 ## Bibliotecas utilizadas
-[Inserir aqui]()
+[Testing Library](https://testing-library.com/docs/)
 
 ## 🚀 Instalar projeto
 
@@ -46,26 +46,27 @@ Para instalar o <nome_do_projeto>, siga estas etapas:
 
 Linux e macOS:
 ```
-<comandos_de_instalação>
+iniciar: 
+
+npm init -y
+
 ```
 
 Windows:
 ```
-<comandos_de_instalação>
+
 ```
 
 ## ☕ Inicializar Projeto
 
 Para usar <nome_do_projeto>, siga estas etapas:
 
-Linux e macOS:
+Linux, macOS e Windows:
 ```
-<exemplo_de_uso>
-```
+npx cypress open
 
-Windows:
-```
-<exemplo_de_uso>
+npx cypress run
+
 ```
 
 Adicione comandos de execução e exemplos que são necessários para rodar o projeto. Fornece uma referência de opções para pontos de bônus!
@@ -78,18 +79,14 @@ Siga estas etapas:
 2. Crie um branch: `git checkout -b <nome_branch>`.
 3. Faça suas alterações e confirme-as: `git status'` e `git commit -m '<mensagem_commit>'`
 4. Envie para o branch original: `git push origin <dentro da branch em desenvolvimento>`
-5. Crie a solicitação de pull no Azure DevOps.
+5. Crie a solicitação de pull no Github.
 
 Como alternativa, consulte a documentação do Azure DevOps em [como criar uma solicitação pull](https://learn.microsoft.com/pt-br/azure/devops/repos/git/pull-requests?view=azure-devops&tabs=browser).
 
 ## Tecnologias e documentações 
-[Framework]()
+[Framework Cypress](https://docs.cypress.io/guides/overview/why-cypress)
 
-[Link documentação]() 
-
-[Práticas utilizando]()
-
-[Referências de boas práticas documentação]()
+[Link ESLint](https://eslint.org/docs/latest/)
 
 ## 📝 Licença
 
